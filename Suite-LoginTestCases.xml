@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite-LoginTestCases">
+  <test thread-count="5" name="RegressionTestOfAlreadyRegisteredUser">
+    <classes>
+      <class name="AppDirect.Automation.assessment.AlreadyRegisteredUser"/>      
+    </classes>
+   </test>
+    
+    <test thread-count="5" name="RegressionTestOfRegisterNewUser">
+    <classes>
+      <class name="AppDirect.Automation.assessment.RegisterNewUserTestCase"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+</suite> <!-- Suite-LoginTestCases -->

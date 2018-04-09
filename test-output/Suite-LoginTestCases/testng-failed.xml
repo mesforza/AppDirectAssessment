@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite-LoginTestCases]">
+  <test thread-count="5" name="RegressionTestOfAlreadyRegisteredUser(failed)">
+    <classes>
+      <class name="AppDirect.Automation.assessment.AlreadyRegisteredUser">
+        <methods>
+          <include name="RegisterNewUser"/>
+        </methods>
+      </class> <!-- AppDirect.Automation.assessment.AlreadyRegisteredUser -->
+    </classes>
+  </test> <!-- RegressionTestOfAlreadyRegisteredUser(failed) -->
+  <test thread-count="5" name="RegressionTestOfRegisterNewUser(failed)">
+    <classes>
+      <class name="AppDirect.Automation.assessment.RegisterNewUserTestCase">
+        <methods>
+          <include name="RegisterNewUser"/>
+        </methods>
+      </class> <!-- AppDirect.Automation.assessment.RegisterNewUserTestCase -->
+    </classes>
+  </test> <!-- RegressionTestOfRegisterNewUser(failed) -->
+</suite> <!-- Failed suite [Suite-LoginTestCases] -->
